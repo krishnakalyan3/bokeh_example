@@ -33,7 +33,7 @@ CREATE TABLE perftest_2 (
 
 # Insert data
 INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
-('multinomial_data-gen_none_dense_10k_100', '1.135', '1.0', 'singlenode',CURRENT_DATE);
+('multinomial_data-gen_none_dense_10k_100', '1.135', '1.0', 'spark_hybrid',CURRENT_DATE);
 INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
 ('multinomial_data-gen_none_dense_10k_100', '1.225', '2.0', 'singlenode',CURRENT_DATE);
 INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES

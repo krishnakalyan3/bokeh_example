@@ -14,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bokeh_example$scatter_plot.coverage" NAME="scatter_plot Coverage Results" MODIFIED="1501876791983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bokeh_example$conn_test.coverage" NAME="conn_test Coverage Results" MODIFIED="1501955939947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bokeh_example$conn_test.coverage" NAME="conn_test Coverage Results" MODIFIED="1501957174296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bokeh_example$bokeh_example.coverage" NAME="bokeh_example Coverage Results" MODIFIED="1501934927821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding>
                 <element signature="e#24#64#0" expanded="true" />
               </folding>
@@ -41,22 +41,50 @@
       <file leaf-file-name="conn_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conn_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="112" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="112" />
+            <state relative-caret-position="63">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
-                <marker date="1501934316000" expanded="true" signature="918:950" ph="select * fro... perftest_2" />
-                <marker date="1501934316000" expanded="true" signature="918:1011" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="292:298" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="292:328" ph="select disti... " />
+                <marker date="1501959131000" expanded="true" signature="454:495" ph="select disti... perftest_2" />
+                <marker date="1501959131000" expanded="true" signature="710:717" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="710:760" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="710:765" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="710:774" ph="select time,... " />
+                <marker date="1501959131000" expanded="true" signature="710:779" ph="select time,... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="child.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="perf_plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/perf_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#23#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="child.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/child.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -88,15 +116,15 @@
         <option value="$PROJECT_DIR$/scatter_plot.py" />
         <option value="$PROJECT_DIR$/sample_data.py" />
         <option value="$PROJECT_DIR$/creds/login.json" />
-        <option value="$PROJECT_DIR$/sql.txt" />
-        <option value="$PROJECT_DIR$/conn_test.py" />
         <option value="$PROJECT_DIR$/perf_plot.py" />
         <option value="$PROJECT_DIR$/templates/chart.html" />
         <option value="$PROJECT_DIR$/templates/plot.html" />
         <option value="$PROJECT_DIR$/templates/list_box.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/sql.txt" />
         <option value="$PROJECT_DIR$/templates/child.html" />
+        <option value="$PROJECT_DIR$/conn_test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -638,14 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creds/login.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -670,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/perf_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/plot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -696,18 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="112" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="112" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <marker date="1501934316000" expanded="true" signature="918:950" ph="select * fro... perftest_2" />
-            <marker date="1501934316000" expanded="true" signature="918:1011" ph="select time,... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -716,21 +714,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/sql.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="212">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/child.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perf_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conn_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+            <marker date="1501959131000" expanded="true" signature="292:298" ph="select time,... " />
+            <marker date="1501959131000" expanded="true" signature="292:328" ph="select disti... " />
+            <marker date="1501959131000" expanded="true" signature="454:495" ph="select disti... perftest_2" />
+            <marker date="1501959131000" expanded="true" signature="710:717" ph="select time,... " />
+            <marker date="1501959131000" expanded="true" signature="710:760" ph="select time,... " />
+            <marker date="1501959131000" expanded="true" signature="710:765" ph="select time,... " />
+            <marker date="1501959131000" expanded="true" signature="710:774" ph="select time,... " />
+            <marker date="1501959131000" expanded="true" signature="710:779" ph="select time,... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="e#24#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

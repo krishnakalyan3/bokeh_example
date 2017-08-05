@@ -10,8 +10,8 @@
 
 {% block backend %}
 <select name="backend">
-  {% for o in backend_type %}
-  <option value="{{ o.name }}">{{ o.name }}</option>
+  {% for backend in backend_type %}
+  <option value="{{ backend }}">{{ backend }}</option>
   {% endfor %}
 </select>
 {% endblock %}
@@ -19,8 +19,8 @@
 
 {% block algo %}
 <select name="algo">
-  {% for o in algo_type %}
-  <option value="{{ o.name }}">{{ o.name }}</option>
+  {% for algo in algo_type %}
+  <option value="{{ algo }}">{{ algo }}</option>
   {% endfor %}
 </select>
 {% endblock %}
