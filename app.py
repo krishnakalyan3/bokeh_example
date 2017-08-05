@@ -11,9 +11,9 @@ CORS(app)
 
 @app.route("/")
 def chart():
-    x = ['tag_1', 'tag_2', 'tag_3']
+    x = ['1.0', '2.7', '3.0']
     y = [1.5, 2, 1.7]
-    plt = plot(x, y)
+    plt = plot(x, y, title="")
     script, div = components(plt)
     return render_template("chart.html",  script=script, div=div)
 
