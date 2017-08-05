@@ -1,0 +1,48 @@
+sudo -i -u postgres
+psql
+
+#quit
+\q
+
+
+# conninfo
+\conninfo
+
+# create user
+sudo -u postgres createuser --interactive
+# systemml
+
+# create db
+sudo -u postgres createdb systemml
+
+# set password
+ALTER USER systemml WITH PASSWORD 'sysml1234';
+
+# Create table
+CREATE TABLE perftest_2 (
+    id serial PRIMARY KEY,
+    algo_comp varchar (50) NOT NULL,
+    time varchar (25) NOT NULL,
+    tag varchar (25) NOT NULL,
+    exec varchar (25) NOT NULL,
+    insert_date date
+);
+
+# see tables
+\dt
+
+# Insert data
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('multinomial_data-gen_none_dense_10k_100', '1.235', '3.0', 'singlenode',CURRENT_DATE);
+
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('total_time', '60', '2.0', 'singlenode', CURRENT_DATE);
+
+# Change port number
+postgres -p 8889
+
+# Restart
+sudo /etc/init.d/postgresql restart
+sudo service postgresql restart
+
+
