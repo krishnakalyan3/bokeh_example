@@ -9,18 +9,28 @@
 <body>
 <h1 align="center">System-ML: Performance Dashboard</h1>
 
-<div align="left">
-    <select style="width: 300px;">
-    <option value="volvo">Clustering</option>
-    <option value="saab">Stats1</option>
-    </select>
+<form>
+<div>
+      {% block plot %}
+      {% endblock %}
 </div>
+<p>
 
+<div>
 
-<div align="right">
-{{ div | safe }}
-{{ script | safe }}
 </div>
+<p>
+<div align="center" >
+
+        {% block backend %}
+        {% endblock %}
+
+        {% block algo %}
+        {% endblock %}
+<p>
+        <button type="submit">Reload</button>
+</div>
+</form>
 
 </body>
 </html>

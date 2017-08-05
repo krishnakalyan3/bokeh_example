@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block plot %}
+<div align="center">
+{{ div1 | safe }}
+{{ script1 | safe }}
+</div>
+{% endblock %}
+
+
+{% block backend %}
+<select name="backend">
+  {% for o in backend_type %}
+  <option value="{{ o.name }}">{{ o.name }}</option>
+  {% endfor %}
+</select>
+{% endblock %}
+
+
+{% block algo %}
+<select name="algo">
+  {% for o in algo_type %}
+  <option value="{{ o.name }}">{{ o.name }}</option>
+  {% endfor %}
+</select>
+{% endblock %}
