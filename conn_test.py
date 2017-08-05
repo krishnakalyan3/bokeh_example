@@ -18,7 +18,6 @@ if __name__ == '__main__':
     PATH = join(DIR, FILE)
 
     login_info = config_reader(PATH)
-    print(login_info)
 
     conn_string = "host={} port={} dbname={} user={} password={}".format(login_info['host'],
                                                                          login_info['port'],
@@ -27,3 +26,6 @@ if __name__ == '__main__':
                                                                  login_info['password'])
     conn = psycopg2.connect(conn_string)
     cursor = conn.cursor()
+    cursor.execute("select time, tag from perftest_2 where  algo_comp = 'multinomial_data-gen_none_dense_10k_100';")
+    rows = cursor.fetchall()
+    print(rows)

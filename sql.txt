@@ -33,10 +33,18 @@ CREATE TABLE perftest_2 (
 
 # Insert data
 INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('multinomial_data-gen_none_dense_10k_100', '1.135', '1.0', 'singlenode',CURRENT_DATE);
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('multinomial_data-gen_none_dense_10k_100', '1.225', '2.0', 'singlenode',CURRENT_DATE);
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
 ('multinomial_data-gen_none_dense_10k_100', '1.235', '3.0', 'singlenode',CURRENT_DATE);
 
 INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
-('total_time', '60', '2.0', 'singlenode', CURRENT_DATE);
+('total_time', '40', '1.0', 'singlenode', CURRENT_DATE);
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('total_time', '50', '2.0', 'singlenode', CURRENT_DATE);
+INSERT INTO perftest_2 (algo_comp, time, tag, exec, insert_date) VALUES
+('total_time', '30', '3.0', 'singlenode', CURRENT_DATE);
 
 # Change port number
 postgres -p 8889
