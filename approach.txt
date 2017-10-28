@@ -1,0 +1,24 @@
+where app is my flask app. I then get a div and script element from bokeh and send it to the client like this:
+
+from bokeh.plotting import figure
+from bokeh.models import VBox
+from bokeh.embed import components 
+from flask import render_template
+
+@app.route('/')
+def index():
+    p = figure(plot_height=350, plot_width=400, title="", toolbar_location=None,
+             tools="reset,box_zoom,pan,wheel_zoom,box_select,save", 
+             webgl=True, responsive=True)
+
+    #add some data like a line, circles, etc to p
+
+    plot = VBox(p,width=400,height=350)
+    
+    script, div = components(plot)
+    return render_template('index.html',script=script,div=div)
+Then I use the script and div in the index.html by using something like this wherever you want it:
+
+{{ script | safe }}
+{{div | safe}}
+I'm also currently working on embedding the plots using bokeh with a django web server, but I haven't tested deploying it to heroku yet.
