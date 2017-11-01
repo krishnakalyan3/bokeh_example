@@ -48,3 +48,6 @@ show(p)
 # TO DO
 # Add custom color to each point
 # Change label size based on some number
+# Add hoverplot
+    # Count
+    # Name of the Label
